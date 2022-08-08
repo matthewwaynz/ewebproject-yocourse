@@ -521,7 +521,7 @@ textarea {
    background: rgb(29, 119, 89) ;
 }
 .search-btn{
-    color: rgb(42, 39, 170);
+    color: rgb(236, 236, 240);
     float: right;
     width: 38px;
     height: 38px;
@@ -767,6 +767,7 @@ nav {
     }
 nav{
     height: 16vh;
+    z-index: 5;
 }
 
 
