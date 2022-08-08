@@ -769,6 +769,9 @@ nav{
     height: 16vh;
     z-index: 5;
 }
+.search{
+    z-index: 30;
+}
 
 
     .row {
