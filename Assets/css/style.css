@@ -765,7 +765,9 @@ nav {
     .logo{
         width: 200px;
     }
-
+nav{
+    height: 16vh;
+}
 
 
     .row {
