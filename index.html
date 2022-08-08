@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>yoCourse - Home</title>
+    <script src="./Assets/scripts.js"></script>
+    <link rel="stylesheet" href="./Assets/css/style.css">
+
+
+
+<!-- PAGE PRELOADER -->
+
+    <link rel="stylesheet" href="css/main.css">
+	<script src="js/vendor/modernizr-2.6.2.min.js"></script>
+
+
+
+    <link rel="apple-touch-icon" sizes="180x180" href="./Assets/images/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./Assets/images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./Assets/images/favicon/favicon-16x16.png">
+    <link rel="manifest" href="./Assets/images/favicon/site.webmanifest">
+
+    <script src="https://kit.fontawesome.com/8c435d0bd0.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Raleway:wght@500;600;700&display=swap"rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+
+
+
+</head>
+<body>
+
+    <!-- PAGE PRELOADER -->
+
+    <div id="loader-wrapper">
+        <div id="loader"></div>
+        <div class="loader-section section-left"></div>
+        <div class="loader-section section-right"></div>
+    </div>
+
+
+    
+    <nav class="z-index-20 w-100" id="nav">
+        <div class="container">
+            <div class="navbar z-index-10">
+                <div>
+                    <!-- <h1 class="text-white">YoCourse</h1> -->
+                   <a href="./index.html"> <img  class="logo" width="" src="./Assets/images/mubs YC Logo.png" alt=""> </a>
+                </div>
+                <div class="nav-link z-index-10 " id="nav-links">
+                    <a href="#" rel="noopener noreferrer" class="mr-2 active"> <i class="fa-solid fa-book-open"></i> &nbsp; Academics</a>
+                    <a href="#about" rel="noopener noreferrer" class="mr-2"><i class="fa-solid fa-graduation-cap"></i> &nbsp; Courses</a>
+                    <a href="#portfolio" rel="noopener noreferrer" class="mr-2"><i class="fa-solid fa-book"></i> &nbsp; Programs</a>
+                    <a href="#services" rel="noopener noreferrer" class="mr-2">Internship</a>
+                    <a href="#contact" rel="noopener noreferrer" class="mr-2">  FAQs &nbsp;<i class="fa-solid fa-circle-question"></i></a>   
+                </div>
+                <div class="navbar-toggle">
+                    <button class="menu" id="open-toggler" onclick="openNav()">
+                        <i class="ri-menu-4-line ri-xl"></i>
+                    </button>
+                    
+                </div>
+            </div>
+        </div> 
+    </nav>
+    <div class="sidebar" id="sidebar">
+        <div class="sidebar-heading">
+            <button class="menu" id="close-toggler" onclick="closeNav()">
+                <i class="ri-close-circle-fill ri-2x"></i>
+
+            </button>
+        </div>
+        <div class="sidebar-body">
+            <div class="sidebar-link">
+                <a href="#" rel="noopener noreferrer" class="mr-2"> Academics</a>
+                <a href="#about" rel="noopener noreferrer" class="mr-2">Courses</a>
+                <a href="#portfolio" rel="noopener noreferrer" class="mr-2">Programs</a>
+                <a href="#services" rel="noopener noreferrer" class="mr-2"> Internship</a>
+                <a href="#contact" rel="noopener noreferrer" class="mr-2">FAQs</a>
+            </div>
+            <div class="sidebar-socialmedia">
+                <!-- <a href="http://" target="_blank" class=" text-white" rel="noopener noreferrer"><i class="ri-facebook-line"></i></a>
+                <a href="http://" target="_blank" rel="noopener noreferrer"><i class="ri-twitter-line"></i></a>
+                <a href="http://" target="_blank" rel="noopener noreferrer"><i class="ri-instagram-line"></i></a>
+                <a href="http://" target="_blank" rel="noopener noreferrer"><i class="ri-youtube-line"></i></a> -->
+            </div>
+        </div>
+    </div>
+
+
+    <section class="home" id="home">
+
+
+
+        <div class="overlay z-index-5"></div>
+
+            <div class="container h-100 ">
+                <div class="home_text z-index-5" data-aos="fade-up">
+                    
+                    <div class="z-index-10">
+
+                                    <div class="search">
+                                        <input  class="search-txt" type="text" name="" placeholder="Type to search"/>
+                                        <a class="search-btn" href="#" >
+                                            <i class="fa-solid fa-magnifying-glass"></i>
+                                        </a>
+                                    </div>
+                      
+                        <p class="text-white">Search for all our Courses and programs</p>
+                        <h1 class="text-white heading">All courses offered at MUBS Reviewed...</h1>
+                        <!-- <div class="mt-2">
+                        <a href="http://" class="btn btn-primary z-index-5" target="_blank" rel="noopener noreferrer">Apply for a Course </a>
+    
+                        </div> -->
+                    </div>
+                </div>
+            </div>
+
+            <div class="slider-controls">
+                <img src="./Assets/images/bg-image-1.avif" id="first-image" onclick="nextSlide('./Assets/images/bg-image-1.avif',this)" class="slider-img active-img" alt="">
+                <!-- <img src="./Assets/images/bg-image10.avif" onclick="nextSlide('./Assets/images/bg-image10.avif',this)" class="slider-img" alt=""> -->
+                <img src="./Assets/images/bg-image3.jfif" onclick="nextSlide('./Assets/images/bg-image3.jfif',this)" class="slider-img" alt="">
+                <img src="./Assets/images/bg-image-12.avif" onclick="nextSlide('./Assets/images/bg-image-12.avif',this)" class="slider-img" alt="">
+                <!-- <img src="./Assets/images/bg-image1.jfif" onclick="nextSlide('./Assets/images/bg-image1.jfif',this)" class="slider-img" alt=""> -->
+                <img src="./Assets/images/bg-image-11.avif" onclick="nextSlide('./Assets/images/bg-image-11.avif',this)" class="slider-img" alt="">
+               
+            </div>
+         
+        </section>
+                    
+<!-- PROGRAM, FACULTY, COURSE UNIT SECTION -->
+
+<section class="about" id="about-section">
+                <div class="skill-container">
+
+                            <div class="link-card large" style="--bg: #163b15">
+                                <p class="skill">Programs</p>
+                            </div>
+                            <div class="link-card large" style="--bg: #4b3309">
+                                <p class="skill">Course Units </p>
+                            </div>
+                            <div class="link-card" style="--bg: #1d0809">
+                                <p class="skill">Faculties</p>
+                            </div>
+                            <div class="link-card" style="--bg: #ffa000">
+                                <p class="skill">Departments </p>
+                            </div>
+                            <div class="link-card large" style="--bg: #16071a">
+                                <p  class="skill">Careers</p>
+                            </div>
+                        </div>
+                </div>  
+</section> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
+<script src="js/main.js"></script>
+   
+      
+</body>
+</html>
+    <script>
+
+
+
+
+
+
+
+
+
+
+        AOS.init();
+    </script>
