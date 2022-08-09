@@ -32,7 +32,9 @@ body {
     width: 250px;
     
 }
-
+.aly{
+    color: green;
+}
 
 /* height and width utility classes */
 .min-h-vh {
@@ -152,6 +154,11 @@ h6 {
 
 .mt-1 {
     margin-top: 1rem;
+    color: #000;
+
+}
+.a{
+    line-height: 1.5rem;
 }
 
 .mt-2 {
@@ -212,7 +219,20 @@ h6 {
 
 .pt-3 {
     padding-top: 3rem;
+  
 }
+#qk-links p{
+    color: #000;
+    margin-top: 1rem;
+    
+}
+
+.qk{
+    font-size: 2.5rem;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
 
 .pb-1 {
     padding-bottom: 1rem;
@@ -642,9 +662,9 @@ textarea {
 
 .review-card {
     border-radius: 10px;
-    min-width: 50vw;
+    min-width: 35vw;
     background-color: #fefefe;
-    padding: 3rem 2rem;
+    padding: 2rem 2rem;
     margin-right: 2rem;
     color: #fff;
     font-size: 0.9rem;
@@ -680,7 +700,7 @@ nav {
     display: flex;
     flex-direction: row;
     align-items: center;
-     background-color: var(--accent-dark);  
+    transition: all 1.7s;
 }
 
 .navbar-toggle {
@@ -792,7 +812,9 @@ nav{
         width: 100%;
         height: auto;
     }
-
+.applications{
+    margin-top: 20px;
+}
     .h-50 {
         height: 50vh;
     }
@@ -849,6 +871,93 @@ nav{
         flex-direction: column;
     }
 }
+
+
+
+/* QUICK LINKS   */
+
+.boxes{
+    max-width: 100%;
+    text-align: center;}
+
+.quicklinks-container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 30px;
+    line-height: 1.9rem;
+}
+
+.box{
+    flex: 1;
+    border-radius: 5px;
+    margin: 25px 15px;
+    box-shadow:  rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    padding: 20px 35px;
+}
+.box h3{
+    font-size: xx-large;
+    margin-bottom: 15px;
+}
+.box ul li a, .aly a{
+     text-decoration: none;
+    color: green;
+}
+
+.box ul li a:hover, .aly a:hover{
+    color: rgb(37, 37, 37);
+    text-decoration: underline;
+    
+    
+
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:768px){
+   
+    .boxes .quicklinks-container{
+        display: block;
+        text-align: center;
+        
+    }
+    .quicklinks-container{
+        
+        align-content: center;
+        justify-content: center;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* mobile device */
 @media screen and (max-width: 1100px) {
@@ -955,5 +1064,33 @@ nav{
 .link-card{
     grid-column: 1 span !important;
 }
+}
+
+#dk-f{
+    color: #000 !important;
+}
+
+
+.parallax {
+    height: 70vh;
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+    margin-top: 60px;
+
+}
+
+
+.parallax-two {
+    background: url('../images/apply2.avif');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
 }
 

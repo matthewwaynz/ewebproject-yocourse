@@ -53,7 +53,7 @@ h1 {
         border-radius: 50%;
         border: 3px solid transparent;
         border-top-color: #e74c3c;
-        border-top-color: #0e1797;
+        border-top-color: #2aa50b;
 
         -webkit-animation: spin 3s linear infinite; /* Chrome, Opera 15+, Safari 5+ */
         animation: spin 3s linear infinite; /* Chrome, Firefox 16+, IE 10+, Opera */
@@ -104,7 +104,7 @@ h1 {
         top: 0;
         width: 51%;
         height: 100%;
-        background: #b7c0d3;
+        background: linear-gradient(rgb(4, 65, 4), rgb(31, 30, 30));
         z-index: 1000;
         -webkit-transform: translateX(0);  /* Chrome, Opera 15+, Safari 3.1+ */
         -ms-transform: translateX(0);  /* IE 9 */
