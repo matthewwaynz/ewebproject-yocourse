@@ -1,0 +1,73 @@
+body{
+    background: #fff;
+    transition-delay: 1.2s ease-in-out;
+}
+nav{
+    background-color: black;
+    margin-bottom: 10vh;
+    position: fixed;
+    top: 0;
+}
+
+.parallax-two{
+    background-image: url(../images/apply.avif);
+}
+.parallax{
+    height: 50vh;
+    
+}
+ .faqs{
+    max-width: 100%;
+    text-align: left;
+} 
+.fq-box h3{
+    margin-bottom: 8px;
+}
+
+
+.fq-container{
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 70px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.b1, .b2{
+    margin-right: 3%;
+
+}
+
+@media (max-width: 800px) {
+    .fq-container{
+        flex-wrap: wrap;
+        width: 80%;
+
+    }
+    .fq-box{
+        margin-bottom: 50px;
+    }
+    
+}
+
+
+
+.fq-box ol{
+    width: 100%;
+    margin-top: 10px;
+}
+.fq-box ol li{
+    margin-top: 15px;
+    word-spacing: 1px;
+}
+
+.fq-box ol li a{
+    color: brown;
+    font-weight: bold;
+}
+.fq-box ol li a:hover{
+    text-decoration: underline;
+}
+
+

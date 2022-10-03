@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>yoCourse - Home</title>
+    <title>yoCourse - Academics</title>
     <script src="./Assets/scripts.js"></script>
     <link rel="stylesheet" href="./Assets/css/style.css">
 
@@ -33,7 +33,6 @@
     <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap"
     rel="stylesheet">
 
-
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
 
@@ -44,12 +43,12 @@
 
     <!-- PAGE PRELOADER -->
 
-    <div id="loader-wrapper">
+      <div id="loader-wrapper">
         <div id="loader"></div>
         <div class="loader-section section-left"></div>
         <div class="loader-section section-right"></div>
     </div>
-
+ 
 
     
     <nav class="z-index-20 w-100" id="nav">
@@ -57,14 +56,14 @@
             <div class="navbar z-index-10">
                 <div>
                     <!-- <h1 class="text-white">YoCourse</h1> -->
-                   <a href="./index.html"> <img  class="logo" width="" src="./Assets/images/mubs YC Logo.png" alt=""> </a>
+                   <a href="./academics.html"> <img  class="logo" width="" src="./Assets/images/mubs YC Logo.png" alt=""> </a>
                 </div>
                 <div class="nav-link z-index-10 " id="nav-links">
-                    <a href="#" rel="noopener noreferrer" class="mr-2 active"> <i class="fa-solid fa-book-open"></i> &nbsp; Academics</a>
-                    <a href="#about" rel="noopener noreferrer" class="mr-2"><i class="fa-solid fa-graduation-cap"></i> &nbsp; Courses</a>
-                    <a href="#portfolio" rel="noopener noreferrer" class="mr-2"><i class="fa-solid fa-book"></i> &nbsp; Programs</a>
-                    <a href="#services" rel="noopener noreferrer" class="mr-2">Internship</a>
-                    <a href="#contact" rel="noopener noreferrer" class="mr-2">  FAQs &nbsp;<i class="fa-solid fa-circle-question"></i></a>   
+                    <a href="academics.html" rel="noopener noreferrer" class="mr-2 active"> <i class="fa-solid fa-book-open"></i> &nbsp; Academics</a>
+                    <a href="COURSES.HTML" rel="noopener noreferrer" class="mr-2"><i class="fa-solid fa-graduation-cap"></i> &nbsp; Courses</a>
+                    <a href="INTERNSHIP.HTML" rel="noopener noreferrer" class="mr-2">Internship</a>
+                    <a href="FAQ.html" rel="noopener noreferrer" class="mr-2">  FAQs &nbsp;<i class="fa-solid fa-circle-question"></i></a>   
+
                 </div>
                 <div class="navbar-toggle">
                     <button class="menu" id="open-toggler" onclick="openNav()">
@@ -75,6 +74,7 @@
             </div>
         </div> 
     </nav>
+
     <div class="sidebar" id="sidebar">
         <div class="sidebar-heading">
             <button class="menu" id="close-toggler" onclick="closeNav()">
@@ -84,17 +84,16 @@
         </div>
         <div class="sidebar-body">
             <div class="sidebar-link">
-                <a href="#" rel="noopener noreferrer" class="mr-2"> Academics</a>
-                <a href="#about" rel="noopener noreferrer" class="mr-2">Courses</a>
-                <a href="#portfolio" rel="noopener noreferrer" class="mr-2">Programs</a>
-                <a href="#services" rel="noopener noreferrer" class="mr-2"> Internship</a>
-                <a href="#contact" rel="noopener noreferrer" class="mr-2">FAQs</a>
+                <a href="academics.html" rel="noopener noreferrer" class="mr-2"> Academics</a>
+                <a href="COURSES.HTML" rel="noopener noreferrer" class="mr-2">Courses</a>
+                <a href="INTERNSHIP.HTML" rel="noopener noreferrer" class="mr-2"> Internship</a>
+                <a href="FAQ.html" rel="noopener noreferrer" class="mr-2">FAQs</a>
             </div>
             <div class="sidebar-socialmedia">
-                <!-- <a href="http://" target="_blank" class=" text-white" rel="noopener noreferrer"><i class="ri-facebook-line"></i></a>
+                <a href="http://" target="_blank" rel="noopener noreferrer"><i class="ri-facebook-line"></i></a>
                 <a href="http://" target="_blank" rel="noopener noreferrer"><i class="ri-twitter-line"></i></a>
                 <a href="http://" target="_blank" rel="noopener noreferrer"><i class="ri-instagram-line"></i></a>
-                <a href="http://" target="_blank" rel="noopener noreferrer"><i class="ri-youtube-line"></i></a> -->
+                <a href="http://" target="_blank" rel="noopener noreferrer"><i class="ri-youtube-line"></i></a> 
             </div>
         </div>
     </div>
@@ -112,10 +111,12 @@
                     <div class="z-index-10">
 
                                     <div class="search">
-                                        <input  class="search-txt" type="text" name="" placeholder="Type to search"/>
-                                        <a class="search-btn" href="#" >
-                                            <i class="fa-solid fa-magnifying-glass"></i>
-                                        </a>
+                                    <form action="" method="POST">
+                                        <input  class="search-txt" type="text" name="search" placeholder="Type to search" style="padding-left: 8px; width: 75%; border-radius: 20px;">
+                                        <button class="search-btn" type="submit" >
+                                            <i class="fa-solid fa-magnifying-glass" ></i>
+                                        </button>
+                                    </form>
                                     </div>
                       
                         <p class="text-white">Search for all our Courses and programs</p>
@@ -140,10 +141,10 @@
                 <div class="skill-container">
 
                             <div class="link-card large" style="--bg: #163b15">
-                                <p class="skill">Programs</p>
+                                <p class="skill"> <a href="index.html">Academics</a></p>
                             </div>
                             <div class="link-card large" style="--bg: #4b3309">
-                                <p class="skill">Course Units </p>
+                                <p class="skill"> <a href="COURSES.HTML">Courses</a></p>
                             </div>
                             <div class="link-card" style="--bg: #1d0809">
                                 <p class="skill">Faculties</p>
@@ -152,7 +153,7 @@
                                 <p class="skill">Departments </p>
                             </div>
                             <div class="link-card large" style="--bg: #16071a">
-                                <p  class="skill">Careers</p>
+                                <p  class="skill"> <a href="INTERNSHIP.HTML">Internships </a></p>
                             </div>
                         </div>
                 </div>  
@@ -162,7 +163,7 @@
     <div class="container">
         <div class="row">
             <div class="col-6 p-1">
-                <img src="./Assets/images/apply3.avif" width="100%" alt="">
+                <img src="./Assets/images/apply3.avif" width="100%" alt="" data-aos="fade-up"  data-aos-delay="200">
             </div>
             <div class="col-6 p-1 applications">
                 <h1 class="text-2xl">Call for Applications:
@@ -170,7 +171,7 @@
                 <p class=" mt-1 a">The School Registrar, Makerere University Business School, invites applications from Ugandan, International
                     applicants for Diploma Programmes under private sponsorship Scheme for the 2022/2023 Academic Year  </p>
                 <div class="mt-2">
-                <a href="#" class="btn btn-primary" target="_blank">Apply Now</a>
+                <a href="https://news.mak.ac.ug/2021/09/how-to-apply-online-at-mak/" class="btn btn-primary" target="_blank">Apply Now</a>
 
                 </div>        
             </div>
@@ -188,13 +189,13 @@
 
 <section class="boxes"> 
             <div class="quicklinks-container">
-                    <div class="box">
-                            <!-- <i class="fa-solid fa-graduation-cap fa-2xl"></i>  -->
+                    <div class="box" data-aos="fade-up"  data-aos-delay="300">
+                             <i class="fa-solid fa-book fa-2xl"></i>
                             <h3>Programs</h3>
                             <ul>
 
                                     <li>
-                                        <a href="#">Business Administration</a>
+                                        <a href="#" id="ba">Business Administration</a>
                                     </li>
                                     <li>
                                         <a href="#">Business Computing</a>
@@ -219,8 +220,8 @@
                             
                     </div>
 
-                    <div class="box">
-                        <!-- <i class="fa-solid fa-lightbulb fa-2xl"></i> -->
+                    <div class="box" data-aos="fade-up"  data-aos-delay="600">
+                        <i class="fa-solid fa-building-user fa-2xl"></i>
                         <h3>Departments</h3>
                             <ul>
 
@@ -248,8 +249,8 @@
 
                         </ul>
                     </div>
-                    <div class="box">
-                            <!-- <i class="fa-solid fa-star fa-2xl"></i> -->
+                    <div class="box" data-aos="fade-up"  data-aos-delay="900">
+                            <i class="fa-solid fa-chalkboard-user fa-2xl"></i>
                             <h3>Faculties</h3>
                         <ul>
                             
@@ -322,6 +323,35 @@
                 </div>
             </div>
         </div>
+        <div class="review-card shadow">
+            <h1 class="text-4xl quotation"><i class="ri-double-quotes-l"></i></h1>
+            <h1 class="text-2xl">Great work</h1>
+            <p class="mt-1 ">Lorem ipsum dolor sit amet consectetur adipisicing elit.  libero natus
+                deserunt officiis impedit molestias architecto error neque sit?</p>
+            <div class="flex-row mt-2 ">
+                <img src="./Assets/images/avatar.png"
+                    alt="">
+                <div class="ml-1 flex-col">
+                    <p class=""><b>Unknown</b></p>
+                    <p class=""><small>Unknown</small></p>
+                </div>
+            </div>
+        </div>
+        <div class="review-card shadow">
+            <h1 class="text-4xl quotation"><i class="ri-double-quotes-l"></i></h1>
+            <h1 class="text-2xl">Add Internship opportunites too</h1>
+            <p class="mt-1 ">Lorem ipsum dolor sit amet consectetur adipisicing elit.  libero natus
+                deserunt officiis impedit molestias architecto error neque sit?</p>
+            <div class="flex-row mt-2 ">
+                <img src="./Assets/images/avatar.png"
+                    alt="">
+                <div class="ml-1 flex-col">
+                    <p class=""><b>anonymous</b></p>
+                    <p class=""><small>Unknown</small></p>
+                </div>
+            </div>
+        </div>
+
         <div class="review-card shadow" >
             <h1 class="text-4xl quotation"><i class="ri-double-quotes-l"></i></h1>
             <h1 class="text-2xl">Plz Include reviews on post graduate courses</h1>
@@ -337,13 +367,62 @@
             </div>
         </div>  
     </div>
+<div class="reviewcontainer" data-aos="fade-up"  data-aos-delay="200"> 
+    <div class="container add-reviews">
+        <div>
+            <h1 class="add-r" id="dk-f">Add Reviews / Comments</h1>
+        </div>
+    </div>   
+    <div class="frm-c">
+        <form action="" method="post">
+            <input type="text" placeholder="Enter your name" name="name" id="f-name">
+            <div class="email_phone">
+                <input type="email" name="email" placeholder="Email" id="email">
+                <input type="text" name="phone" placeholder="Phone" id="phone">
+            </div>
+            <textarea name="message" id="text-area" cols="30" rows="10"></textarea>
+            <input type="submit"  value="Submit" id="btn-submit">
+        </form>
+    </div>
+</div>   
 </section>
-
-
-
-
-
-
+<section class="pt-3 pb-3" id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="col-4 contact">
+                <a href="tel:256756374741" class="text-xl"><i class="fa-solid fa-phone fa-2x"></i></a>
+                <div class="mt-1">
+                    <p>+256756374741</p>
+                </div>
+            </div>
+            <div class="col-4 contact">
+                <a href="mailto: nyongezamatthew20@gmail.com" class="text-xl"><i class="fa-solid fa-envelope fa-2x"></i></a>
+                <div class="mt-1">
+                    <p>nyongezamatthew20@gmail.com</p>
+                </div>
+            </div>
+            <div class="col-4 contact">
+                <a href="https://www.google.com/maps/place/Makerere+University+Business+School/@0.3281168,32.6149588,17z/data=!3m1!4b1!4m5!3m4!1s0x177dbbe6fabc442f:0x897fb573bcbbeba6!8m2!3d0.3281168!4d32.6171475" target="_blank" class="text-xl"><i class="fa-solid fa-location-dot fa-2x"></i></a>
+                <div class="mt-1">
+                    <p>MUBS Nakawa</p>
+                    <p>Kampala Uganda.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<footer>
+    <div class="w-100 flex-row justify-between p-1">
+        <div>
+            <p>&copy; Developed by Matthew </p>
+        </div>
+        <div class="last-l">
+            <a href="http://" target="_blank" class="text-xl"><i class="fa-brands fa-square-facebook fa-2x"></i></a>
+            <a href="http://" target="_blank" ><i class="fa-brands fa-twitter fa-2x"></i></a>
+            <a href="http://" target="_blank" ><i class="fa-brands fa-square-whatsapp fa-2x"></i></a>
+        </div>
+    </div>
+</footer>
 
 
 

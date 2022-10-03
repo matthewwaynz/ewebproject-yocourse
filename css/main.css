@@ -1,4 +1,6 @@
-
+body{
+    height: 100%;
+}
 .chromeframe {
     margin: 0.2em 0;
     background: #ccc;
@@ -35,7 +37,7 @@ h1 {
     margin: -75px 0 0 -75px;
     border-radius: 50%;
     border: 3px solid transparent;
-    border-top-color: #3498db;
+    border-top-color: #020202;
 
     -webkit-animation: spin 2s linear infinite; /* Chrome, Opera 15+, Safari 5+ */
     animation: spin 2s linear infinite; /* Chrome, Firefox 16+, IE 10+, Opera */
@@ -68,7 +70,7 @@ h1 {
         bottom: 15px;
         border-radius: 50%;
         border: 3px solid transparent;
-        border-top-color: #f9c922;
+        border-top-color: #ffffff;
 
         -webkit-animation: spin 1.5s linear infinite; /* Chrome, Opera 15+, Safari 5+ */
           animation: spin 1.5s linear infinite; /* Chrome, Firefox 16+, IE 10+, Opera */
@@ -104,7 +106,7 @@ h1 {
         top: 0;
         width: 51%;
         height: 100%;
-        background: linear-gradient(rgb(4, 65, 4), rgb(31, 30, 30));
+        background: linear-gradient(#78bd78, #0f1f0f);
         z-index: 1000;
         -webkit-transform: translateX(0);  /* Chrome, Opera 15+, Safari 3.1+ */
         -ms-transform: translateX(0);  /* IE 9 */

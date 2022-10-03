@@ -1,0 +1,36 @@
+body{
+    background: #fff;
+}
+nav{
+    background-color: black;
+    margin-bottom: 10vh;
+    position: fixed;
+    top: 0;
+}
+
+.parallax-two{
+     background-image: url(../images/intern11.avif);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+    
+}
+
+.parallax{
+    height: 50vh;
+    
+}
+
+h1 .course-head{
+    text-align: center;
+    color: #fff;
+
+
+}
+
+
+
+
+
+

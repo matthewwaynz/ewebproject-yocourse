@@ -1,3 +1,5 @@
+
+
 function openNav() {
     document.getElementById("sidebar").style.marginRight = "0vw";
   }

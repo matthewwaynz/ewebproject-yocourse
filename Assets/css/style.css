@@ -1,3 +1,4 @@
+
 :root {
     --primary-light: #fafafa;
     --secondary-light: #222;
@@ -155,6 +156,10 @@ h6 {
 .mt-1 {
     margin-top: 1rem;
     color: #000;
+
+}
+.mt-1 {
+    margin-bottom: 1rem;
 
 }
 .a{
@@ -499,6 +504,10 @@ ul>li {
     z-index: 1;
 }
 
+
+
+
+
 input,
 textarea {
     width: 100%;
@@ -550,7 +559,10 @@ textarea {
     display: flex;
     justify-content: center;
     align-items: center;
+    outline: none;
+    border: 1px solid rgb(139, 134, 134);
 }
+
 
 .search-txt{
     border: none;
@@ -696,7 +708,7 @@ nav {
     position: fixed;
     z-index: 10;
     width: 100vw;
-    height: 20vh;
+    height: 16vh;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -765,7 +777,7 @@ nav {
     margin-bottom: 2rem;
 }
 .sidebar-link  > a:hover{
-    color: var(--secondary-accent);
+    color: var(--hover-color);
     text-decoration: underline;
 }
 
@@ -778,6 +790,11 @@ nav {
 }
 .sidebar-socialmedia > a{
     color: #fff;
+}
+
+.sidebar-socialmedia > a:hover{
+    color: var(--hover-color);
+
 }
 
 /* tablet device */
@@ -894,13 +911,15 @@ nav{
 .box{
     flex: 1;
     border-radius: 5px;
-    margin: 25px 15px;
+    margin: 35px 15px;
     box-shadow:  rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
     padding: 20px 35px;
+    margin-top: 40px;
 }
 .box h3{
     font-size: xx-large;
     margin-bottom: 15px;
+    margin-top: 10px;
 }
 .box ul li a, .aly a{
      text-decoration: none;
@@ -911,12 +930,118 @@ nav{
     color: rgb(37, 37, 37);
     text-decoration: underline;
     
-    
-
-  
 }
 
 
+.add-r{
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    padding-top: 40px;
+    font-weight: bold;
+}
+.reviewcontainer{
+    width: 70%;
+    margin: 0 auto;
+    box-shadow: rgba(100, 100, 111, 0.5) 0px 12px 32px 0px;
+    border-radius: 5px;
+    box-sizing: border-box;
+
+
+}
+ /* Review Form */
+
+ 
+
+#f-name, #btn-submit{
+    width: 90%;
+    display: block;
+    margin: 0 auto;
+    border-radius: 25px;
+    border: 1px solid rgb(128, 128, 128);
+    font-size: medium;
+    margin-bottom: 20px;
+    height: 45px;
+    
+}
+.email_phone{
+    display: flex;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+   
+
+
+}
+.email_phone input[type = "email"], #phone{
+    border-radius: 25px;
+    font-size: medium;
+    height: 45px;
+    border: 1px solid rgb(128, 128, 128);
+    outline: none;
+
+
+    
+}
+
+
+.email_phone input[type = "email"]{
+    margin-right: 10px;
+}
+
+#text-area{
+    max-width: 90%;
+    margin: 0 auto;
+    height: 150px;
+    border: 1px solid rgb(128, 128, 128);
+    border-radius: 25px;
+    margin-bottom: 20px;
+    display: block;
+    font-size: medium;
+    outline: none;
+
+
+}
+
+/* .review-container form{
+    width: 90%;
+    margin: 0 auto;
+
+} */
+#btn-submit{
+    background-color: rgb(57, 100, 57);
+    border: none;
+    color: #fff;
+    height: 50px;
+   
+
+}
+#btn-submit:hover{
+    background: rgb(51, 68, 51);
+    transition: all 0.8s;
+    box-shadow: rgb(0, 0, 0, 0.45) 0px 25px 20px -20px;
+    color: #fff;
+}
+
+
+.frm-c{
+    padding-bottom: 18px;
+}
+
+
+.email_phone input[type = "email"]:focus,#f-name:focus { 
+    outline: none !important;
+    border-color: #51ad7b;
+    box-shadow: 0 0 10px #173629;
+    transition: all 0.8s;
+}
+#text-area:focus{
+    border-color: #51ad7b;
+    box-shadow: 0 0 10px #173629;
+    transition: all 0.8s;
+}
 
 
 
@@ -934,12 +1059,25 @@ nav{
         text-align: center;
         
     }
+    
     .quicklinks-container{
         
         align-content: center;
         justify-content: center;
     }
+    .reviewcontainer{
+        width: 85%;
+    }
+    .email_phone{
+        display: block;
+       
+    }
+    .email_phone input[type = "email"]{
+        margin-bottom: 20px;
+    }
+    
 }
+
 
 
 
@@ -1094,3 +1232,25 @@ nav{
 
 }
 
+
+
+
+#contact .container .row{
+    width: 90% !important;
+    margin: 0 auto !important;
+    color: #173629 !important;
+    justify-content: space-evenly !important;
+    margin-right: -60px;
+}
+
+
+.last-l a{
+    margin-left: 8px;
+}
+
+
+
+.contact a:hover, .last-l a:hover{
+    color: green;
+    transition: all 0.2s;
+}
