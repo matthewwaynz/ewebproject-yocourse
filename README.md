@@ -1,5 +1,5 @@
 # ewebproject-yocourse
-<h3> Project Title -  <a href="#" target="_blank">YoCourse Mubs<a> </h3>
+<h3> Project Title -  <a href="https://yocoursemubs.netlify.app/" target="_blank">YoCourse Mubs<a> </h3> Deployed <a href="https://yocoursemubs.netlify.app/" target="_blank">Here<a>.
 <p> This was a Class group project for a Web Design Course Unit. </p>
 <p> Although i solely built / Designed it.</p>
 <h4> The Project Idea was to Solve the problem of ignorance of students/University Entrants before making choices of courses in Universities <em>specifically <a href="https://mubs.ac.ug/" target="_blank">Makerere University Business School (MUBS)</a></em>
