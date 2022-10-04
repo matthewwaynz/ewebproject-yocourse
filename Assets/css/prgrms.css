@@ -26,7 +26,13 @@ h1 .course-head{
     text-align: center;
     color: #fff;
 
-
+}
+@media (max-width: 700px) {
+    .heading-intern{
+        margin-left: 3%;
+        margin-right: auto;
+    }
+    
 }
 
 

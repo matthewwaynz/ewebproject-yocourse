@@ -1164,9 +1164,16 @@ nav{
 .link-card:hover .skill{
     color: #fff;
 }
+.link-card:hover .skill a{
+    color: #fff;
+
+}
 
 .link-card.large{
     grid-column: 2 span;
+}
+.intern:hover{
+    background: rgb(49, 6, 49);
 }
 
 
